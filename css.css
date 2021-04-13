@@ -1,0 +1,842 @@
+
+/*reset css*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+/*MAIN*/
+
+
+body{
+
+	font-family: 'Titillium Web', sans-serif;
+	background-color: white;
+
+}
+
+
+.main-container{
+height: 100vh;
+display: flex;
+ align-items:center;
+
+
+}
+
+
+.main-title{
+	font-weight: bold;
+	text-align: center;
+	font-size: 2.5em;
+	
+	/*text-shadow:5px 5px 10px black;*/
+}
+
+
+
+.main-text{
+	font-size: 1.25em;
+	text-align: justify ;
+}
+
+
+#testimonial{
+	color: white ;
+
+	
+	padding: 50px;
+	text-align: center;
+
+}
+
+
+
+
+
+
+
+#needs-validation{
+	
+	color: white;
+
+     border-radius: 2%;
+
+	padding: 40px;
+
+	font-weight: bold;
+
+	
+}
+
+
+.contact-container{
+
+	margin: 60px auto;
+}
+
+
+
+
+#contact{
+
+background: url(img/diamond.jpg) no-repeat center;
+
+background-size: cover;
+		
+/*vertical-align: middle;*/
+ display: flex;
+ align-items:center;
+ 
+
+
+	
+}
+
+
+
+
+
+.form-group{
+	margin: 40px auto;
+	
+}
+
+label{
+	margin: 5px auto;
+}
+
+
+
+.invalid-feedback{
+
+color: pink;
+
+}
+
+
+.carousel-inner, .carousel-item  img {
+  object-fit: cover;
+  height: 100vh;
+  width: 100%;
+}
+
+
+
+
+
+
+
+.carousel-caption a{
+	text-decoration: none;
+	color: white;
+	display: block;
+	margin-bottom: 100px;
+	
+
+}
+
+
+
+.carousel-caption a:hover{
+
+color: grey;
+
+}
+
+
+
+
+.product-link{
+
+text-decoration: none;
+color: #212529;
+
+}
+
+.product-link:hover{
+
+text-decoration: none;
+color: grey;
+
+}
+
+.copyright{
+
+	margin: 20px auto;
+	font-size: 1.5em;
+
+}
+
+
+
+
+/*Social icones*/
+
+
+
+ul {
+    padding:0;
+    list-style: none;
+}
+
+.social-icon {
+    color: #fff;
+}
+ul.social-icons {
+    margin-top: 10px;
+}
+.social-icons li {
+    vertical-align: top;
+    display: inline;
+    height: 100px;
+}
+.social-icons a {
+    color: #fff;
+    text-decoration: none;
+}
+.fa-facebook {
+    padding:10px 14px;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: .5s;
+    background-color: #343a40;
+}
+.fa-facebook:hover {
+    background-color: #3d5b99;
+}
+.fa-twitter {
+    padding:10px 12px;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: .5s;
+    background-color: #343a40;
+}
+.fa-twitter:hover {
+    background-color: #00aced;
+}
+
+ 
+.fa-youtube {
+    padding:10px 14px;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: .5s;
+    background-color: #343a40;
+}
+.fa-youtube:hover {
+    background-color: #e64a41;
+}
+.fa-linkedin {
+    padding:10px 14px;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: .5s;
+    background-color: #343a40;
+}
+.fa-linkedin:hover {
+    background-color: #0073a4;
+}
+
+
+
+
+
+
+
+
+/*HISTORY*/
+
+
+
+.history-header{
+	
+
+	background: url(img/family.jpg) center no-repeat fixed ;
+	background-color: #330066;
+	background-blend-mode: soft-light;
+
+
+/*margin-top: 55px;*/
+background-size: cover;
+height: 95vh;
+box-sizing: border-box;
+ 
+		
+vertical-align: middle;
+ display: flex;
+ align-items:center;
+
+}
+
+
+.robert,.factory,.martin {
+display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+
+
+#martin{
+
+	background-color: #330066;
+	color: white;
+}
+
+.martin{
+	border:3px solid white;
+}
+
+.robert{
+	border: 3px solid #212529;
+}
+
+.divider-history{
+	background-color: #330066;
+	height: 100px;
+
+}
+
+
+
+/*ABOUT*/
+
+
+
+#about-header{
+
+	height: 100vh;
+
+	box-sizing: border-box;
+ 
+		
+/*vertical-align: middle;*/
+ display: flex;
+ align-items:center;
+}
+
+
+
+.card{
+
+	border: none;
+	margin: 50px auto;
+	text-align: justify;
+}
+
+
+
+.divider{
+
+	background-color: #17a2b8;
+	height: 100px;
+
+}
+
+.card-title{
+
+	
+	font-weight: bold;
+}
+
+.card a{
+
+	text-decoration: none !important;
+	color: #212529;
+
+}
+
+#bgvid{
+	position: relative;
+	height: 100vh;
+	z-index: -1;
+
+   width: 100%;
+   object-fit: cover;
+
+
+
+  
+}
+
+
+
+
+.video-wrap{
+	background-color: rgba(0,0,0,0.7);
+
+	background-blend-mode: soft-light;
+}
+
+.video-text{
+	position: absolute;
+	top: 38%;
+	width: 100%;
+}
+
+
+
+
+
+
+
+
+/*PRODUCTS*/
+
+
+
+.left-navbar a{
+
+	text-decoration: none;
+	font-size: 1.5em;
+	color: white;
+
+}
+
+.left-navbar a:hover{
+
+	
+	color: #212529;
+
+
+}
+
+
+
+
+.sidenav  {
+  
+
+  position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+  z-index: 1; /* Stay on top */
+  top: auto; /* Stay at the top */
+  left: auto;
+  
+  overflow-x: hidden; /* Disable horizontal scroll */
+  margin-left: 2%;
+  padding-top: 100px !important;
+ 
+}
+
+
+
+.sidenav-mobile{
+	visibility: hidden;
+}
+
+
+
+
+
+.container-rings{
+	margin-top: 48px;
+}
+
+
+.first-row{
+	border-top: solid 96px #6c757d;
+	border-bottom: solid 96px #6c757d;
+
+}
+
+
+
+.ring-div{
+
+	border-top: solid 96px #6c757d;
+}
+
+
+
+
+
+/*MEDIA QUERIES*/
+
+
+
+
+
+
+
+@media only screen and (max-width: 576px){
+
+.main-btn {
+	margin: 20px auto;
+
+}
+
+.main-title{
+	font-size: 2em;
+}
+
+.main-text{
+	display: none;
+}
+
+.main-right{
+
+/*position: static !important;*/
+margin-top: 55px !important;
+	
+}
+
+.main-left{
+
+	/*padding-top: -100px;*/
+}
+
+
+
+	#testimonial p{
+
+		font-size: 1.25em;
+		
+	}
+
+	.quote{
+		text-align: justify!important;
+		font-size: 1em !important ;
+	}
+
+	.carousel-caption h2{
+
+		font-size: 30px !important;
+
+	}
+
+
+
+
+
+
+	.history-header p{
+
+		font-size: 22px !important;
+
+
+	}
+
+	.history-header h2{
+
+		font-size: 40px !important;
+	}
+
+
+#about-header h2{
+	font-size: 40px !important;
+	
+}
+
+.team-horizontal,.work-horizontal,.office-horizontal{
+
+	margin: 30px auto !important;
+	
+}
+
+.title-necklaces,.title-rings,.title-bracelets{
+
+
+	font-size: 3em;
+}
+
+
+.video-text h1{
+
+	font-size: 2.5em;
+
+	
+
+}
+
+.video-text h3{
+
+font-size: 2em ;
+
+	}
+
+	.video-text{
+
+
+
+		top: 45%;
+	}
+
+
+
+.sidenav-mobile a{
+
+	font-size: 1em; 
+}
+
+
+}
+
+
+
+
+@media only screen and (max-width: 767px){
+
+
+
+
+#testimonial p{
+
+		font-size: 1.25em;
+		
+	}
+
+	
+
+	.factory-text{
+		text-align: justify;
+
+	}
+
+#about-header h2{
+	font-size: 3em;
+}
+
+
+.team{
+
+	display: none;
+
+}
+.team-horizontal:after{
+
+	content: "TEAM";
+	font-size: 3em;
+
+	
+	font-weight: bold;
+
+}
+
+
+
+
+.work{
+
+	display: none;
+
+}
+.work-horizontal:after{
+
+	content: "WORK";
+	font-size: 3em;
+	margin: 10px auto;
+	font-weight: bold;
+
+}
+
+
+.office{
+
+	font-size: 3em !important;
+	font-weight: bold;
+}
+
+
+
+
+.sidenav{
+
+	position: initial;
+		padding: 0px !important;
+	
+
+
+}
+
+
+
+
+
+
+.sidenav a{
+
+	text-align: center;
+	
+
+	
+	
+	
+
+
+}
+
+
+
+
+
+
+.left-navbar{
+
+	position: fixed;
+	z-index: 1;
+	
+
+	
+}
+
+.sidenav-mobile{
+
+	visibility: visible;
+
+}
+
+
+
+
+.sidenav{
+
+	display: none;
+}
+
+
+
+.ring-div{
+
+	margin-top:80px ;
+	border: none;
+
+
+}
+
+
+
+
+.first-row{
+	
+	border-bottom: none;
+
+}
+
+
+
+
+
+
+}
+
+
+@media only screen and (max-width: 992px){
+
+.main-btn {
+	text-align: center;
+
+}
+
+.main-left{
+
+	padding-top: 60px;
+}
+.main-right{
+	position: relative;
+	top: -150px;
+}
+
+
+}
+
+
+
+
+	.card{
+
+
+	margin: 10px auto;
+	
+}
+
+
+.team{
+
+	font-size: 4.5em;
+}
+
+
+.office{
+
+	font-size: 4.5em;
+
+}
+
+
+.copyright{
+
+	font-size: 16px;
+}
+
+
+
+
+
+}
+
+
+
+@media only screen and (max-width: 1200px){
+
+.left-navbar a{
+
+	
+	font-size: 1.15em;
+	
+
+}
+
+
+
+
+}
