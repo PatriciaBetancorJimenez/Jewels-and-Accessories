@@ -1,3 +1,4 @@
+"use strict";
 // Animation Homepage
 
 function detectmob() {
@@ -41,15 +42,10 @@ document.querySelectorAll('a[href^="#"]').forEach((anchor) => {
   });
 });
 
-// $(document).ready(function(){
-
-//   var color=$(".footcolor").css("color");
-// alert(color);
-// });
+// BOOTSTRAP VALIDATION
 
 (function () {
   //form validation beggins
-  "use strict";
 
   window.addEventListener(
     "load",
@@ -80,3 +76,10 @@ $(".card").hover(
     $(this).css("background-color", "white");
   }
 );
+
+/// gallery effect
+
+$(document).on("click", '[data-toggle="lightbox"]', function (event) {
+  event.preventDefault();
+  $(this).ekkoLightbox();
+});
